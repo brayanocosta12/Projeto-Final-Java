@@ -1,0 +1,38 @@
+main {
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.nav-link  {
+    
+    font-weight: 800;
+}
+
+.nome {
+    Width: 60%;
+      
+}
+
+.email {
+    Width: 60%;
+    
+}
+
+.telefone {
+    Width: 20%;
+}
+
+.cpf {
+    Width: 20%;
+}
+
+.endereco {
+    Width: 50%;
+}
+
+.btn-primary {
+    color:aquamarine;
+    font-weight: 500;
+}
+    
+ 
