@@ -1,11 +1,11 @@
 main {
     margin-top: 50px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .nav-link  {
     
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .nome {
@@ -34,5 +34,27 @@ main {
     Width: 60%;
 }
 
+.marca {
+    Width: 60%;
+}
 
+.quantidade {
+    Width: 60%;
+}
+
+.preco {
+    Width: 60%;
+}
+
+.btn-primary {
+    font-weight: 700;
+    background-color:#00FA9A;
+    color: rgb(15, 15, 15);
+    margin-left:  25px;
+    border: none;
+}
+
+.servico {
+    Width: 60%;
+}
  
