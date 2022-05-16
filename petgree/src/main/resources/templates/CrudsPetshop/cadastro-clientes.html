@@ -21,7 +21,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <!-- CSS Externo -->
-  	<link href="css/cadastro-clientes.css" rel="stylesheet" type="text/css" media="all" />
+  	<link href="css/estilo.css" rel="stylesheet" type="text/css" media="all" />
 
 <title>Clientes</title>
 </head>
@@ -50,12 +50,16 @@
 	<h1>Cadastrar</h1>
 	<hr>
 		
-			<div class="input-group mb-3 nome">
-				<span class="input-group-text">Nome</span>
-				<input type="text" class="form-control" placeholder="Nome" aria-label="Nome" >
-				<span class="input-group-text">Sobrenome</span>
-				<input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
-	  		</div>
+					<div class="input-group mb-3 nome">
+						<span class="input-group-text" id="inputGroup-sizing-default">Nome</span>
+						<input type="text" class="form-control" aria-label="Sizing example input" placeholder="Nome" aria-describedby="inputGroup-sizing-default">
+  					</div>
+
+	  				<div class="input-group mb-3 sobrenome">
+						<span class="input-group-text" id="inputGroup-sizing-default">Sobrenome</span>
+						<input type="text" class="form-control" aria-label="Sizing example input" placeholder="Sobrenome" aria-describedby="inputGroup-sizing-default">
+  					</div>
+					  
 		        	<div class="input-group mb-3 email">
 			 	 		<span class="input-group-text" id="inputGroup-sizing-default">Email</span>
 			  			<input type="text" class="form-control" aria-label="Sizing example input" placeholder="name@example.com" aria-describedby="inputGroup-sizing-default">

@@ -13,26 +13,26 @@ main {
       
 }
 
+.sobrenome {
+    Width: 60%;
+}
+
 .email {
     Width: 60%;
     
 }
 
 .telefone {
-    Width: 20%;
+    Width: 60%;
 }
 
 .cpf {
-    Width: 20%;
+    Width: 60%;
 }
 
 .endereco {
-    Width: 50%;
+    Width: 60%;
 }
 
-.btn-primary {
-    color:aquamarine;
-    font-weight: 500;
-}
-    
+
  
